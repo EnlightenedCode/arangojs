@@ -16,6 +16,7 @@ export default class Connection {
     this.config = {...Connection.defaults, ...config};
     this.config.agentOptions = {...Connection.agentDefaults, ...this.config.agentOptions};
     if (!this.config.headers) this.config.headers = {};
+    this.config.headers['Authorization'] = 'Basic ' + new Buffer(config.creds).toString('base64');
     if (!this.config.headers['x-arango-version']) {
       this.config.headers['x-arango-version'] = this.config.arangoVersion;
     }
