@@ -1,9 +1,9 @@
 {
-  "name": "arangojs",
-  "version": "4.2.1",
+  "name": "arangojs-enlightenedcode",
+  "version": "4.2.2",
   "license": "Apache-2.0",
-  "description": "The official ArangoDB JavaScript driver.",
-  "homepage": "https://github.com/arangodb/arangojs",
+  "description": "Andrews Verison of ArangoDB JavaScript driver.",
+  "homepage": "http://www.apprunners.com",
   "author": "ArangoDB GmbH",
   "keywords": [
     "arango",
@@ -67,15 +67,15 @@
   },
   "contributors": [
     {
-      "name": "Alan Plum",
-      "email": "me@pluma.io"
+      "name": "Andrew Alanis",
+      "email": "andrew4336@gmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/arangodb/arangojs/issues"
+    "url": "https://github.com/EnlightenedCode/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arangodb/arangojs.git"
+    "url": "https://github.com/EnlightenedCode/arangojs.git"
   }
 }
